@@ -1,0 +1,131 @@
+body {
+    width: 100vw;
+    background: -webkit-linear-gradient(left top,#F3F4FF ,#FFFDFF);
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    background-color: #EAEEFF;
+}
+.logo img {
+    
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.logo span {
+    display: inline-block;
+    font-size: 7.3333vw;
+    color:#666;
+}
+.kaitou h1 , .title h1, .peiliao{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    font-size: 9vw;
+    font-weight: 400;
+}
+.kaitou span, .title span {
+    font-weight: 320;
+    font-size: 4.8vw;
+    display: inline-block;
+    color:#333;
+    width: 80vw;
+    margin: 5vw 0;
+    margin-left: 10vw;
+}
+div[class^=jindutiao] {
+    margin-top: 5vw;
+    display: flex;
+    padding: 0 3vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5.7333vw;
+    font-weight: 800;
+    color: #F3F4FF;
+    height: 10vw;
+    border-radius: 0 3vw 3vw 0;
+}
+.jindutiao1 span:nth-child(1),
+.jindutiao2 span:nth-child(1),
+.jindutiao3 span:nth-child(1),
+.jindutiao4 span:nth-child(1),
+.jindutiao5 span:nth-child(1){
+
+    float: left;
+}
+.jindutiao1 span:nth-child(2),
+.jindutiao2 span:nth-child(2),
+.jindutiao3 span:nth-child(2),
+.jindutiao4 span:nth-child(2),
+.jindutiao5 span:nth-child(2) {
+    float: right;
+}
+.jindutiao1 {
+    width: 70vw;
+    background-color:#727574 ;
+}
+.jindutiao2 {
+    width: 60vw;
+    background-color: #F09F87;
+}
+.jindutiao3 {
+    width: 65vw;
+    background-color:#6D5D72 ;
+}
+.jindutiao4 {
+    width: 50vw;
+    background-color: #22E8C3;
+}
+.jindutiao5 {
+    width: 80vw;
+    background-color:#DA6E6F ;
+    margin-bottom: 5vw;
+}
+box1 {
+    background-color: pink;
+    width: 90vw;
+    height: 50vw;
+    margin: 2vw auto 0;
+    border-radius: 5vw;
+}
+.neirong img{
+    box-shadow: 0.6667vw 0.6667vw 3.6667vw 0.6667vw rgba(0, 0, 0, .3);
+    border-radius: 2vw;
+    width: 80vw;
+    height: auto;
+    margin:2vw 10vw 5vw ;
+}
+.footer span{
+    display: block;
+    font-weight: 320;
+    font-size: 4vw;
+    color: #333;
+    float: right;
+    margin: 5vw 2.6667vw 5vw 0;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vw;
+    background-color: #EAEEFF;
+}
+footer img{
+    height: 100%;
+    width: auto;
+}

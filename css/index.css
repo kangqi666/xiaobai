@@ -1,0 +1,47 @@
+body {
+    border-top: 1px solid transparent;
+    background-color: #EAEEFF;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.plane {
+    margin-top: 16vh;
+}
+.plane img{
+    display: block;
+    margin: 0 auto 0;
+    width: 60vw;
+    height: auto;
+}
+.welcome {
+    font-size: 2.2667vw;
+    text-align: center;
+}
+.text1 {
+    margin-top: 0.6667vw;
+    font-size: 4.6667vw;
+    text-align: center;
+}
+.text2 {
+    margin-top: 0.6667vw;
+    font-size: 2.2667vw;
+    text-align: center;
+}
+.join {
+    display: flex;
+    margin: 30vw auto 0;
+    height: 17vw;
+    width: 44.3333vw;
+    background-color:#777;
+    color:#EAEEFF;
+    border-radius: 10vw;
+    font-size: 9vw;
+    justify-content: center;
+    align-items: center;
+}
+.join div {
+    height: 100%;
+    line-height: 17vw;
+    display: inline-block;
+}
